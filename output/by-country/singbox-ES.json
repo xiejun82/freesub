@@ -5,7 +5,7 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "🇪🇸 西班牙 (Spain) 01 - xiaohe",
+      "tag": "🇪🇸 西班牙 (Spain) 01",
       "server": "108.181.121.226",
       "server_port": 8388,
       "method": "chacha20-ietf-poly1305",
@@ -13,7 +13,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇪🇸 西班牙 (Spain) 02 - xiaohe",
+      "tag": "🇪🇸 西班牙 (Spain) 02",
       "server": "212.227.235.66",
       "server_port": 2053,
       "uuid": "ead0dd61-d398-40ad-80d6-a0e1e516d7d3",
@@ -33,7 +33,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇪🇸 西班牙 (Spain) 03 - xiaohe",
+      "tag": "🇪🇸 西班牙 (Spain) 03",
       "server": "140.174.184.5",
       "server_port": 8388,
       "method": "chacha20-ietf-poly1305",
@@ -44,18 +44,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇪🇸 西班牙 (Spain) 01 - xiaohe",
-        "🇪🇸 西班牙 (Spain) 02 - xiaohe",
-        "🇪🇸 西班牙 (Spain) 03 - xiaohe"
+        "🇪🇸 西班牙 (Spain) 01",
+        "🇪🇸 西班牙 (Spain) 02",
+        "🇪🇸 西班牙 (Spain) 03"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇪🇸 西班牙 (Spain) 01 - xiaohe",
-        "🇪🇸 西班牙 (Spain) 02 - xiaohe",
-        "🇪🇸 西班牙 (Spain) 03 - xiaohe"
+        "🇪🇸 西班牙 (Spain) 01",
+        "🇪🇸 西班牙 (Spain) 02",
+        "🇪🇸 西班牙 (Spain) 03"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
