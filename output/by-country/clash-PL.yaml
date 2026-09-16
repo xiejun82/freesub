@@ -4,35 +4,35 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇵🇱 波兰 (Poland) 01 - xiaohe
+- name: 🇵🇱 波兰 (Poland) 01
   server: 217.30.10.44
   port: 9041
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: U6qnYRhfyDmn8sgn
-- name: 🇵🇱 波兰 (Poland) 02 - xiaohe
+- name: 🇵🇱 波兰 (Poland) 02
   server: 217.30.10.44
   port: 9095
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: N7j3pdTYkKmsy8CR
-- name: 🇵🇱 波兰 (Poland) 03 - xiaohe
+- name: 🇵🇱 波兰 (Poland) 03
   server: 217.30.10.44
   port: 9071
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: mENfxTFQpRKKh4As
-- name: 🇵🇱 波兰 (Poland) 04 - xiaohe
+- name: 🇵🇱 波兰 (Poland) 04
   server: 217.30.10.44
   port: 9052
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: jt2ekBNc9HuVtm2a
-- name: 🇵🇱 波兰 (Poland) 05 - xiaohe
+- name: 🇵🇱 波兰 (Poland) 05
   server: 185.223.57.10
   port: 33743
   udp: true
@@ -46,7 +46,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: TunService
-- name: 🇵🇱 波兰 (Poland) 06 - xiaohe
+- name: 🇵🇱 波兰 (Poland) 06
   server: 50.7.249.187
   port: 443
   udp: true
@@ -57,7 +57,7 @@ proxies:
   servername: poland-new-dedic-2.failspace.top
   skip-cert-verify: false
   client-fingerprint: firefox
-- name: 🇵🇱 波兰 (Poland) 07 - xiaohe
+- name: 🇵🇱 波兰 (Poland) 07
   server: 185.255.179.11
   port: 9443
   udp: true
@@ -70,7 +70,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: pl01-grpc-8e47a
-- name: 🇵🇱 波兰 (Poland) 08 - xiaohe
+- name: 🇵🇱 波兰 (Poland) 08
   server: 50.7.248.237
   port: 443
   udp: true
@@ -81,14 +81,14 @@ proxies:
   servername: pl-new-dedic.failspace.top
   skip-cert-verify: false
   client-fingerprint: firefox
-- name: 🇵🇱 波兰 (Poland) 09 - xiaohe
+- name: 🇵🇱 波兰 (Poland) 09
   server: 194.61.121.93
   port: 7538
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: U9YAoqBgg5VyGBc6vQv1sN
-- name: 🇵🇱 波兰 (Poland) 10 - xiaohe
+- name: 🇵🇱 波兰 (Poland) 10
   server: streambox.wwwinternetvideo.click
   port: 443
   udp: true
@@ -96,7 +96,7 @@ proxies:
   password: 865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01
   sni: streambox.wwwinternetvideo.click
   skip-cert-verify: false
-- name: 🇵🇱 波兰 (Poland) 11 - xiaohe
+- name: 🇵🇱 波兰 (Poland) 11
   server: atomic-prase23893.my-vm.work
   port: 8088
   udp: true
@@ -107,7 +107,7 @@ proxies:
     path: /api
     headers:
       Host: queuev4.vk.com
-- name: 🇵🇱 波兰 (Poland) 12 - xiaohe
+- name: 🇵🇱 波兰 (Poland) 12
   server: 144.31.93.126
   port: 443
   udp: true
@@ -115,7 +115,7 @@ proxies:
   password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
   sni: admin.wwwinternetvideo.click
   skip-cert-verify: true
-- name: 🇵🇱 波兰 (Poland) 13 - xiaohe
+- name: 🇵🇱 波兰 (Poland) 13
   server: 144.31.5.64
   port: 443
   udp: true
@@ -125,7 +125,7 @@ proxies:
   tls: true
   servername: pl6.moritech.net
   skip-cert-verify: false
-- name: 🇵🇱 波兰 (Poland) 14 - xiaohe
+- name: 🇵🇱 波兰 (Poland) 14
   server: 144.31.2.33
   port: 443
   udp: true
@@ -136,7 +136,7 @@ proxies:
   servername: pl3.moritech.net
   skip-cert-verify: false
   client-fingerprint: firefox
-- name: 🇵🇱 波兰 (Poland) 15 - xiaohe
+- name: 🇵🇱 波兰 (Poland) 15
   server: 82.118.22.161
   port: 443
   udp: true
@@ -154,40 +154,40 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇵🇱 波兰 (Poland) 01 - xiaohe
-  - 🇵🇱 波兰 (Poland) 02 - xiaohe
-  - 🇵🇱 波兰 (Poland) 03 - xiaohe
-  - 🇵🇱 波兰 (Poland) 04 - xiaohe
-  - 🇵🇱 波兰 (Poland) 05 - xiaohe
-  - 🇵🇱 波兰 (Poland) 06 - xiaohe
-  - 🇵🇱 波兰 (Poland) 07 - xiaohe
-  - 🇵🇱 波兰 (Poland) 08 - xiaohe
-  - 🇵🇱 波兰 (Poland) 09 - xiaohe
-  - 🇵🇱 波兰 (Poland) 10 - xiaohe
-  - 🇵🇱 波兰 (Poland) 11 - xiaohe
-  - 🇵🇱 波兰 (Poland) 12 - xiaohe
-  - 🇵🇱 波兰 (Poland) 13 - xiaohe
-  - 🇵🇱 波兰 (Poland) 14 - xiaohe
-  - 🇵🇱 波兰 (Poland) 15 - xiaohe
+  - 🇵🇱 波兰 (Poland) 01
+  - 🇵🇱 波兰 (Poland) 02
+  - 🇵🇱 波兰 (Poland) 03
+  - 🇵🇱 波兰 (Poland) 04
+  - 🇵🇱 波兰 (Poland) 05
+  - 🇵🇱 波兰 (Poland) 06
+  - 🇵🇱 波兰 (Poland) 07
+  - 🇵🇱 波兰 (Poland) 08
+  - 🇵🇱 波兰 (Poland) 09
+  - 🇵🇱 波兰 (Poland) 10
+  - 🇵🇱 波兰 (Poland) 11
+  - 🇵🇱 波兰 (Poland) 12
+  - 🇵🇱 波兰 (Poland) 13
+  - 🇵🇱 波兰 (Poland) 14
+  - 🇵🇱 波兰 (Poland) 15
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇵🇱 波兰 (Poland) 01 - xiaohe
-  - 🇵🇱 波兰 (Poland) 02 - xiaohe
-  - 🇵🇱 波兰 (Poland) 03 - xiaohe
-  - 🇵🇱 波兰 (Poland) 04 - xiaohe
-  - 🇵🇱 波兰 (Poland) 05 - xiaohe
-  - 🇵🇱 波兰 (Poland) 06 - xiaohe
-  - 🇵🇱 波兰 (Poland) 07 - xiaohe
-  - 🇵🇱 波兰 (Poland) 08 - xiaohe
-  - 🇵🇱 波兰 (Poland) 09 - xiaohe
-  - 🇵🇱 波兰 (Poland) 10 - xiaohe
-  - 🇵🇱 波兰 (Poland) 11 - xiaohe
-  - 🇵🇱 波兰 (Poland) 12 - xiaohe
-  - 🇵🇱 波兰 (Poland) 13 - xiaohe
-  - 🇵🇱 波兰 (Poland) 14 - xiaohe
-  - 🇵🇱 波兰 (Poland) 15 - xiaohe
+  - 🇵🇱 波兰 (Poland) 01
+  - 🇵🇱 波兰 (Poland) 02
+  - 🇵🇱 波兰 (Poland) 03
+  - 🇵🇱 波兰 (Poland) 04
+  - 🇵🇱 波兰 (Poland) 05
+  - 🇵🇱 波兰 (Poland) 06
+  - 🇵🇱 波兰 (Poland) 07
+  - 🇵🇱 波兰 (Poland) 08
+  - 🇵🇱 波兰 (Poland) 09
+  - 🇵🇱 波兰 (Poland) 10
+  - 🇵🇱 波兰 (Poland) 11
+  - 🇵🇱 波兰 (Poland) 12
+  - 🇵🇱 波兰 (Poland) 13
+  - 🇵🇱 波兰 (Poland) 14
+  - 🇵🇱 波兰 (Poland) 15
 rules:
 - MATCH,PROXIES
