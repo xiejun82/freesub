@@ -4,7 +4,7 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇫🇮 芬兰 (Finland) 01 - xiaohe
+- name: 🇫🇮 芬兰 (Finland) 01
   server: 31.77.199.147
   port: 4443
   udp: true
@@ -17,7 +17,7 @@ proxies:
     short-id: 7da2eae792187ab9
   servername: images.unsplash.com
   client-fingerprint: ''
-- name: 🇫🇮 芬兰 (Finland) 02 - xiaohe
+- name: 🇫🇮 芬兰 (Finland) 02
   server: fl.windconnect.pro
   port: 443
   udp: true
@@ -35,14 +35,14 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇫🇮 芬兰 (Finland) 01 - xiaohe
-  - 🇫🇮 芬兰 (Finland) 02 - xiaohe
+  - 🇫🇮 芬兰 (Finland) 01
+  - 🇫🇮 芬兰 (Finland) 02
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇫🇮 芬兰 (Finland) 01 - xiaohe
-  - 🇫🇮 芬兰 (Finland) 02 - xiaohe
+  - 🇫🇮 芬兰 (Finland) 01
+  - 🇫🇮 芬兰 (Finland) 02
 rules:
 - MATCH,PROXIES
