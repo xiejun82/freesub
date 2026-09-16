@@ -5,7 +5,7 @@
   "outbounds": [
     {
       "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 01 - xiaohe",
+      "tag": "🇨🇭 瑞士 (Switzerland) 01",
       "server": "152.67.75.161",
       "server_port": 443,
       "password": "3a702d4d1de4949005d8431220e040fb",
@@ -21,7 +21,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 02 - xiaohe",
+      "tag": "🇨🇭 瑞士 (Switzerland) 02",
       "server": "140.238.213.114",
       "server_port": 50160,
       "password": "84a506ca5aca505696a454d828420b3f",
@@ -36,16 +36,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇭 瑞士 (Switzerland) 01 - xiaohe",
-        "🇨🇭 瑞士 (Switzerland) 02 - xiaohe"
+        "🇨🇭 瑞士 (Switzerland) 01",
+        "🇨🇭 瑞士 (Switzerland) 02"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇭 瑞士 (Switzerland) 01 - xiaohe",
-        "🇨🇭 瑞士 (Switzerland) 02 - xiaohe"
+        "🇨🇭 瑞士 (Switzerland) 01",
+        "🇨🇭 瑞士 (Switzerland) 02"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
