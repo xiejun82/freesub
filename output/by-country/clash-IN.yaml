@@ -25,12 +25,12 @@ proxies:
   sni: vpn-in-001.fastervpn.world
   skip-cert-verify: true
 - name: 🇮🇳 印度 (India) 03 - xiaohe
-  server: vpn-in-001.fastervpn.world
+  server: 13.207.151.141
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: speedtest.tinkoff.ru
+  sni: vpn-in-001.fastervpn.world
   skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
