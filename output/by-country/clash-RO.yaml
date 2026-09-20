@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇴 罗马尼亚 (Romania) 01 - xiaohe
-  server: 162.249.126.7
+  server: 162.249.126.2
   port: 8443
   udp: true
   type: hysteria2
@@ -13,7 +13,7 @@ proxies:
   sni: hopp-germany-new.ddnsguru.com
   skip-cert-verify: true
 - name: 🇷🇴 罗马尼亚 (Romania) 02 - xiaohe
-  server: 85.204.107.174
+  server: 85.204.107.185
   port: 8443
   udp: true
   type: hysteria2
@@ -26,7 +26,7 @@ proxies:
   udp: true
   type: hysteria2
   password: gf1:gfhysteria2024
-  sni: speedtest.tinkoff.ru
+  sni: t.me
   skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
