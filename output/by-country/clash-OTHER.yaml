@@ -5,16 +5,21 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 104.16.72.50
+  server: guanwang.awsno.com
   port: 443
   udp: true
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
+  type: vmess
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: guanwang.awsno.com
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /assignment
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
 proxy-groups:
 - name: PROXIES
   type: select
