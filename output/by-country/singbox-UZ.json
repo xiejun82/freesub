@@ -4,18 +4,15 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
-      "tag": "🇱🇺 卢森堡 (Luxembourg) 01 - xiaohe",
-      "server": "188.42.145.180",
+      "type": "vless",
+      "tag": "🇺🇿 乌兹别克斯坦 (Uzbekistan) 01 - xiaohe",
+      "server": "104.25.155.45",
       "server_port": 443,
-      "password": "humanity",
+      "uuid": "50414e45-4c5f-5a45-5553-4eef5adc237a",
       "tls": {
         "enabled": true,
-        "server_name": "www.volumeroot.com",
+        "server_name": "r5zenrelur2s.pqzdileiu8es.workers.dev",
         "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -23,9 +20,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/assignment",
+        "path": "/stream/PANEL_ZEUS/4eef5adc237a/loc-1",
         "headers": {
-          "Host": "www.volumeroot.com"
+          "Host": "r5zenrelur2s.pqzdileiu8es.workers.dev"
         }
       }
     },
@@ -34,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇺 卢森堡 (Luxembourg) 01 - xiaohe"
+        "🇺🇿 乌兹别克斯坦 (Uzbekistan) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇺 卢森堡 (Luxembourg) 01 - xiaohe"
+        "🇺🇿 乌兹别克斯坦 (Uzbekistan) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
