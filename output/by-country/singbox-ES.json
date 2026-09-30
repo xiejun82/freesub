@@ -4,36 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
-      "tag": "🇪🇸 西班牙 (Spain) 01 - xiaohe",
-      "server": "66.163.118.73",
-      "server_port": 22324,
-      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-      "security": "auto"
-    },
-    {
-      "type": "vless",
-      "tag": "🇪🇸 西班牙 (Spain) 02 - xiaohe",
-      "server": "212.227.235.66",
-      "server_port": 2053,
-      "uuid": "ead0dd61-d398-40ad-80d6-a0e1e516d7d3",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk",
-          "short_id": "29e8dcd2b37aaa7f"
-        }
-      }
-    },
-    {
       "type": "shadowsocks",
-      "tag": "🇪🇸 西班牙 (Spain) 03 - xiaohe",
+      "tag": "🇪🇸 西班牙 (Spain) 01 - xiaohe",
       "server": "140.174.184.5",
       "server_port": 8388,
       "method": "chacha20-ietf-poly1305",
@@ -41,7 +13,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇪🇸 西班牙 (Spain) 04 - xiaohe",
+      "tag": "🇪🇸 西班牙 (Spain) 02 - xiaohe",
       "server": "108.181.121.226",
       "server_port": 8388,
       "method": "chacha20-ietf-poly1305",
@@ -49,7 +21,15 @@
     },
     {
       "type": "vmess",
-      "tag": "🇪🇸 西班牙 (Spain) 05 - xiaohe",
+      "tag": "🇪🇸 西班牙 (Spain) 03 - xiaohe",
+      "server": "66.163.118.73",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇪🇸 西班牙 (Spain) 04 - xiaohe",
       "server": "66.163.118.73",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
@@ -64,6 +44,32 @@
         "path": "/linkvws",
         "headers": {
           "Host": "mygptagent.org"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇪🇸 西班牙 (Spain) 05 - xiaohe",
+      "server": "188.114.98.134",
+      "server_port": 443,
+      "uuid": "ba49d874-fe02-465d-82d3-ed981dc7694f",
+      "tls": {
+        "enabled": true,
+        "server_name": "o94yv7LiF0-AnxIsd9EFehVvs7mXn6bh.z-UlE-ikA-d-e-nE-k-E.WorkeRs.dEv",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev"
         }
       }
     },
