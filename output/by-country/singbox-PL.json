@@ -6,6 +6,27 @@
     {
       "type": "vless",
       "tag": "🇵🇱 波兰 (Poland) 01 - xiaohe",
+      "server": "95.85.253.202",
+      "server_port": 443,
+      "uuid": "4314a583-3a39-45e1-883e-70bf570d252a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl0001.kubservice.icu",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱 波兰 (Poland) 02 - xiaohe",
       "server": "144.31.131.38",
       "server_port": 443,
       "uuid": "adc11f30-e4cb-4985-bf5e-f9ded69c019f",
@@ -21,27 +42,6 @@
           "enabled": true,
           "public_key": "fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI",
           "short_id": "db04ce8bdb8900f1"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 02 - xiaohe",
-      "server": "pl-waw.dontblockmepls.com",
-      "server_port": 2063,
-      "uuid": "b18d5990-96eb-4587-a386-7f8ef7591e6a",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "rusbid.de",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM",
-          "short_id": ""
         }
       }
     },
@@ -79,17 +79,23 @@
       }
     },
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "🇵🇱 波兰 (Poland) 05 - xiaohe",
-      "server": "188.114.96.19",
-      "server_port": 80,
-      "uuid": "aed88e79-5762-4d2f-86fa-f438f32a7654",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir."
+      "server": "pl-waw.dontblockmepls.com",
+      "server_port": 2063,
+      "uuid": "b18d5990-96eb-4587-a386-7f8ef7591e6a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "rusbid.de",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM",
+          "short_id": ""
         }
       }
     },
@@ -102,47 +108,21 @@
       "tls": {
         "enabled": true,
         "server_name": "admin.wwwinternetvideo.click",
-        "insecure": false
+        "insecure": true
       }
     },
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🇵🇱 波兰 (Poland) 07 - xiaohe",
-      "server": "144.31.5.3",
-      "server_port": 443,
-      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl4.moritech.net",
-        "insecure": false,
-        "alpn": [
-          "h2"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 08 - xiaohe",
-      "server": "78.17.97.201",
-      "server_port": 443,
-      "uuid": "6db7ea14-ed33-4591-a9b1-f1e91b1c0ff5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "ozone.nl",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Jx7Z4PZ5DvGyEniIJhf6LwetaZ1_WDvPdpqtBDYOjyM",
-          "short_id": "42df"
+      "server": "188.114.96.19",
+      "server_port": 80,
+      "uuid": "aed88e79-5762-4d2f-86fa-f438f32a7654",
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir."
         }
       }
     },
@@ -157,8 +137,7 @@
         "🇵🇱 波兰 (Poland) 04 - xiaohe",
         "🇵🇱 波兰 (Poland) 05 - xiaohe",
         "🇵🇱 波兰 (Poland) 06 - xiaohe",
-        "🇵🇱 波兰 (Poland) 07 - xiaohe",
-        "🇵🇱 波兰 (Poland) 08 - xiaohe"
+        "🇵🇱 波兰 (Poland) 07 - xiaohe"
       ]
     },
     {
@@ -171,8 +150,7 @@
         "🇵🇱 波兰 (Poland) 04 - xiaohe",
         "🇵🇱 波兰 (Poland) 05 - xiaohe",
         "🇵🇱 波兰 (Poland) 06 - xiaohe",
-        "🇵🇱 波兰 (Poland) 07 - xiaohe",
-        "🇵🇱 波兰 (Poland) 08 - xiaohe"
+        "🇵🇱 波兰 (Poland) 07 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
