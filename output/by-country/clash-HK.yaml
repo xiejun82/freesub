@@ -5,20 +5,58 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - xiaohe
-  server: 181.215.18.110
-  port: 1080
+  server: 162.159.0.169
+  port: 8880
   udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: m5nsedvdczx6x06e
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  network: ws
+  ws-opts:
+    path: '/?ed=2560security=tls '
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
-  server: 181.215.18.196
-  port: 1080
+  server: 188.114.97.6
+  port: 2082
   udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: pno0e2keji2gsfea
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
 - name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
+  server: 172.64.32.103
+  port: 2052
+  udp: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
+  server: 162.159.24.131
+  port: 8080
+  udp: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  network: ws
+  ws-opts:
+    path: ?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
+  server: 202.146.222.89
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https%253a%252f%252ft.me%252fclashv8%25f0%259f%2587%25a8%25f0%259f%2587%25b3
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - xiaohe
   server: 43.161.230.103
   port: 8443
   udp: true
@@ -26,7 +64,15 @@ proxies:
   password: HysTeria2026!Proxy
   sni: mz.hkychina.com
   skip-cert-verify: false
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
+- name: 🇭🇰 中国香港 (Hong Kong) 07 - xiaohe
+  server: 202.146.222.29
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 202.146.222.29
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 08 - xiaohe
   server: 202.146.222.174
   port: 443
   udp: true
@@ -34,47 +80,63 @@ proxies:
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: https://t.me/wangcai2
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
-  server: 202.146.222.89
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 202.146.222.89
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - xiaohe
-  server: 185.244.208.69
+- name: 🇭🇰 中国香港 (Hong Kong) 09 - xiaohe
+  server: strong-haddock.rooster465.autos
   port: 443
   udp: true
   type: trojan
   password: UX82473651
   sni: strong-haddock.rooster465.autos
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 07 - xiaohe
-  server: 202.146.222.29
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/wangcai2üá®üá≥
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - xiaohe
-  server: yg1.ygkkk.dpdns.org
+  skip-cert-verify: false
+- name: 🇭🇰 中国香港 (Hong Kong) 10 - xiaohe
+  server: 194.99.79.26
   port: 443
   udp: true
   type: vmess
-  uuid: b2ba4a73-3123-479e-aa96-5973a9ecd0c0
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
   cipher: auto
   tls: true
-  servername: jmp1.907737.xyz
+  servername: aksai.org
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
+    path: /linkvws
     headers:
-      Host: jmp1.907737.xyz
-- name: 🇭🇰 中国香港 (Hong Kong) 09 - xiaohe
+      Host: aksai.org
+- name: 🇭🇰 中国香港 (Hong Kong) 11 - xiaohe
+  server: 8.218.195.61
+  port: 443
+  udp: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: EX1oGt73NzPQKAc2.v.3dns.vip
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: EX1oGt73NzPQKAc2.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 12 - xiaohe
+  server: 8.217.13.103
+  port: 443
+  udp: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: qtkdr8jxe3wefxjm.v.3dns.vip
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: qtkdr8jxe3wefxjm.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 13 - xiaohe
   server: hk2.xiaoliyu.cyou
   port: 4433
   udp: true
@@ -96,6 +158,10 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 07 - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 08 - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 09 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 10 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 11 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 12 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 13 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -110,5 +176,9 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 07 - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 08 - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 09 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 10 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 11 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 12 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 13 - xiaohe
 rules:
 - MATCH,PROXIES
