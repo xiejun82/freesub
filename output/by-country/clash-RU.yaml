@@ -5,16 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  server: 172.67.150.22
-  port: 443
+  server: 130.49.189.158
+  port: 43558
   udp: true
-  type: trojan
-  password: LcICDcp!jD9TFV$NbH
-  sni: dl2uF-iVdeZILZ3E86rK18.Hhvt37tjm2XBOsQL5HXogN-Y.woRKERS.dEv
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /tr/pg4wM48V9O859nmqsJg22EOFKN4S570y?ed
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: EKGHx2yhUzmnRONhNOxvn+BqUr10wfqDQqRg4DYUJE8=
 - name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   server: 194.38.11.86
   port: 65443
@@ -23,12 +19,13 @@ proxies:
   cipher: aes-256-cfb
   password: 7eadc6dbe2ae
 - name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  server: 130.49.189.158
-  port: 43558
+  server: srv-17e124.21freedom.net
+  port: 11592
   udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: EKGHx2yhUzmnRONhNOxvn+BqUr10wfqDQqRg4DYUJE8=
+  type: hysteria2
+  password: 41edb44c8e
+  sni: srv-17e124.21freedom.net
+  skip-cert-verify: false
 - name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
   server: 5.42.99.64
   port: 8443
